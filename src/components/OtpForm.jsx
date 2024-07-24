@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import {Logo} from "./index.js";
 
 function OtpForm() {
   const [otp, setOtp] = useState({
@@ -180,15 +181,7 @@ function OtpForm() {
           </div>
         </div>
       </div>
-      <Link to={"https://www.chaicode.com"} target="_blank">
-        <img
-          className="absolute right-10 bottom-10"
-          src="/logo.png"
-          alt="Chai aur Code Logo"
-          height={100}
-          width={100}
-        />
-      </Link>
+      <Logo />
     </div>
   );
 }
