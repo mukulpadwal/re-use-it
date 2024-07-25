@@ -1,8 +1,8 @@
-# ReUse
+# [ReUseIt](https://re-use-it.netlify.app/)
 
 ## `Build faster. Reuse more.`
 
-### Component 1 : OTP Form (Valid OTP : 1234)
+### [Component 1 : OTP Form (Valid OTP : 1234)](https://re-use-it.netlify.app/otp-form)
 
 <img src="./public/assets/otp-form.png"></img>
 
@@ -10,7 +10,7 @@
 - This component is built using React and vanilla javascript without any 3rd-party library
 - The focus of the input fields automatically moves to the next input field when a user enters a `numeric value` and if the user clicks `backspace` button the value is removed and the focus is shifted to the previous input box.
 
-### Component 2 : Drag and Drop Course Cards
+### [Component 2 : Drag and Drop Course Cards](https://re-use-it.netlify.app/course-list)
 
 <img src="./public/assets/course-list.png"></img>
 
@@ -21,7 +21,7 @@
   - `Move to Bottom` : When clicked the card moves to the bottom of the list
   - `Remove` : When clicked the card is removed from the list
 
-### Component 3 : Data Table
+### [Component 3 : Data Table](https://re-use-it.netlify.app/batches)
 
 <img src="./public/assets/batches.png"></img>
 
