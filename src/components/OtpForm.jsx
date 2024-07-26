@@ -24,7 +24,7 @@ function OtpForm() {
     if (userInput.length === 4) {
       setSubmitted(true);
 
-      if (userInput === String(import.meta.env.VITE_VALID_OTP_KEY)) {
+      if (userInput === "1234") {
         setIsOtpValid(true);
         setBorderColor("border-[#23CF9B]");
       } else {
